@@ -31,10 +31,12 @@ Before starting the training process, data preparation and conversion are necess
 ```
 
 ## Testing
-Test images are saved in the 'test_result' folder.["The trained model can be downloaded from Google Drive."](https://drive.google.com/drive/folders/11vJ9A_AaDPN6FBFdYcmcY1MUfR5t_l8j?usp=sharing)
+Test images are saved in the 'test_result' folder.  
+["The trained model can be downloaded from Google Drive."](https://drive.google.com/drive/folders/11vJ9A_AaDPN6FBFdYcmcY1MUfR5t_l8j?usp=sharing)
 ```bash
 !python caption.py --img='/content/drive/MyDrive/a-PyTorch-Tutorial-to-Image-Captioning/test/test1.jpg' --model='/content/drive/MyDrive/a-PyTorch-Tutorial-to-Image-Captioning/BEST_checkpoint_flickr8k_5_cap_per_img_5_min_word_freq.pth.tar' --word_map='/content/drive/MyDrive/a-PyTorch-Tutorial-to-Image-Captioning/data/Flicker8k_Dataset/WORDMAP_flickr8k_5_cap_per_img_5_min_word_freq.json' --beam_size=5
 ```
+
 | query | ![Query Image](https://github.com/hanacho1/Image-Captioning/blob/main/test_result/test2.jpg) |
 |-------|------------------------------------------------------------|
 | result| ![Result Image](https://github.com/hanacho1/Image-Captioning/blob/main/test_result/test2_output.png) |
